@@ -1,3 +1,9 @@
+
+
+
+
+
+
 ## The functions are use to calculate the inverse of a square matrix in a time-efficient way. 
 ## They cache the value of the inverse the first time it is calculated, so it can be retrieved for 
 ## subsequent calculations. 
@@ -43,4 +49,5 @@ cacheSolve <- function(x, ...) {
     m$setinv(i)
     i
 }
+
 
